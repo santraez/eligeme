@@ -1,0 +1,89 @@
+@use '../base/variables' as v;
+
+.body__container--back {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  .body__container {
+    width: 95%;
+    max-width: v.$desktopXL;
+    @media (min-width: 600px) {
+      width: 85%;
+    }
+    @media (min-width: 1000px) {
+      width: 95%;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+    @media (min-width: 600px) {
+      margin: 80px 0;
+    }
+    @media (min-width: 1000px) {
+      flex-direction: row;
+    }
+    .body-article {
+      .body-article__message {
+        // margin-bottom: 40px;
+        h3 {
+          font-size: 48px;
+        }
+        button {
+          height: 45px;
+          border: none;
+          font-size: 20px;
+          padding: 0 25px;
+        }
+      }
+      .body-article__ad-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .app-router__container {
+        //height: 340px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        //margin-top: 50px;
+        margin-bottom: 30px;
+        // scrollbar-color: transparent transparent;
+        // &::-webkit-scrollbar {
+        //   display: none;
+        // }
+      }
+      .app-router__hidden-scroll {
+        overflow-y: hidden !important;
+        scrollbar-color: transparent transparent;
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+      .process-button {
+        //height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0 40px 0;
+        //font-size: 44px;
+        font-weight: 700;
+      }
+    }
+    .body-aside {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      @media (min-width: 700px) {
+        justify-content: space-around;
+      }
+      @media (min-width: 1000px) {
+        width: auto;
+        flex-direction: column;
+      }
+    }
+  }
+}

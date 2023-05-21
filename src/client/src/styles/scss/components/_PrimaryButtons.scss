@@ -1,0 +1,39 @@
+@use '../base/variables' as v;
+
+.input-name__light,
+.input-name__dark {
+  width: 100%;
+  height: 50px;
+  text-overflow: ellipsis;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  padding: 0 20px;
+  &:focus {
+    outline: none;
+  }
+  // &::-webkit-input-placeholder {
+  //   opacity: 1;
+  // }
+  
+  // &::-moz-placeholder {
+  //   opacity: 1;
+  // }
+  
+  // &::-ms-input-placeholder {
+  //   opacity: 1;
+  // }
+}
+.input-name__light {
+  &:focus {
+    color: #FFDE00 !important;
+  }
+}
+.input-name__dark {
+  &:focus {
+    color: #9A1663 !important;
+  }
+}

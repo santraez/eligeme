@@ -1,0 +1,16 @@
+@use '../base/variables' as v;
+
+.footer__container {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  p {
+    font-size: 12px;
+    span {
+      font-size: 22px;
+      position: relative;
+      top: 8px;
+    }
+  }
+}

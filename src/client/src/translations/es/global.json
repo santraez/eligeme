@@ -1,0 +1,38 @@
+{
+  "header": {
+    "slogan": "Aplicación Web para elegir aleatoriamente.."
+  },
+  "body": {
+    "state-hello": "Hola!",
+    "state-wow": "Sorteando..",
+    "state-ready": "Resultado:",
+    "input-column-a": "escribe algo",
+    "input-column-b": "aquí también",
+    "input-button": "Añadir",
+    "row-a-button": "Columna 1",
+    "row-b-button": "Columna 2",
+    "choose-button": "Elegir",
+    "order-button": "Ordenar",
+    "group-button": "Agrupar",
+    "assign-button": "Asignar",
+    "input-name": "Asigna un nombre",
+    "input-name-default": "Sin nombre",
+    "start-button": "Empezar",
+    "processing-button": "Procesando..",
+    "return-button": "Regresar",
+    "share-button": "Compartir",
+    "ad-text": "Anuncio publicitario",
+    "alert-empty": "No hay suficientes elementos para elegir",
+    "alert-name": "Por favor, dale un nombre a tu elección aleatoria",
+    "alert-column": "Por favor, escribe en ambas columnas",
+    "alert-copy": "Enlace copiado al portapapeles",
+    "delete-all": "Eliminar todo",
+    "text-type": "Tipo:",
+    "text-link": "Ver valores previos",
+    "text-code": "Codigo:",
+    "text-tutorial": "Tutorial"
+  },
+  "footer": {
+    "copy-right": "Desarrollado por"
+  }
+}

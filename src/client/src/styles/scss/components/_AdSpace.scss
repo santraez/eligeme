@@ -1,0 +1,12 @@
+@use '../base/variables' as v;
+
+.ad-space__container {
+  fieldset {
+    padding: 5px 10px 10px 10px;
+    margin: 0;
+    legend {
+      font-size: 12px;
+      padding: 0 5px;
+    }
+  }
+}

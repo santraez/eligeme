@@ -1,0 +1,38 @@
+{
+  "header": {
+    "slogan": "Web application to choose randomly.."
+  },
+  "body": {
+    "state-hello": "Hello!",
+    "state-wow": "Raffling..",
+    "state-ready": "Result:",
+    "input-column-a": "write something",
+    "input-column-b": "here too",
+    "input-button": "Add",
+    "row-a-button": "Column 1",
+    "row-b-button": "Column 2",
+    "choose-button": "Choose",
+    "order-button": "Order",
+    "group-button": "Group",
+    "assign-button": "Assign",
+    "input-name": "Assign a name",
+    "input-name-default": "Unnamed",
+    "start-button": "Start",
+    "processing-button": "Processing..",
+    "return-button": "Return",
+    "share-button": "Share",
+    "ad-text": "Advertisement",
+    "alert-empty": "Not enough items to choose from",
+    "alert-name": "Please, give your random choice a name",
+    "alert-column": "Please, write in both columns",
+    "alert-copy": "Link copied to clipboard",
+    "delete-all": "Delete all",
+    "text-type": "Type:",
+    "text-link": "See previous values",
+    "text-code": "Code:",
+    "text-tutorial": "Tutorial"
+  },
+  "footer": {
+    "copy-right": "Developed by"
+  }
+}

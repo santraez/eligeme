@@ -1,0 +1,119 @@
+@use '../base/variables' as v;
+
+.inputs__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  .inputs__form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      .inputs__element {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 10px;
+        
+        .inputs__element--number {
+          width: 60px;
+          height: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .inputs__element--number-delete {
+            display: none;
+            font-size: 28px;
+            font-weight: 700;
+          }
+          p {
+            font-size: 30px;
+            font-weight: 700;
+            user-select: none;
+          }
+        }
+        .inputs__element--number-light {
+          &:hover {
+            background-color: #FFDE00 !important;
+            .inputs__element--number-delete {
+              display: flex;
+            }
+            p {
+              display: none;
+            }
+          }
+        }
+        .inputs__element--number-dark {
+          &:hover {
+            background-color: #9A1663 !important;
+            .inputs__element--number-delete {
+              display: flex;
+            }
+            p {
+              display: none;
+            }
+          }
+        }
+        .inputs__element--input-light,
+        .inputs__element--input-dark {
+          overflow-y: auto !important;
+          text-overflow: ellipsis;
+          height: 100%;
+        }
+        .inputs__element--input-light {
+          &:focus {
+            color: #9A1663 !important;
+          }
+        }
+        .inputs__element--input-dark {
+          &:focus {
+            color: #FFDE00 !important;
+          }
+        }
+        input {
+          width: calc(100% - 90px);
+          font-size: 32px;
+          background-color: transparent;
+          border: none;
+          margin-left: 20px;
+          padding-right: 10px;
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+  .inputs__button--container {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: none;
+    padding: 0;
+    &:active {
+      width: 250px !important;
+    }
+    .inputs__button {
+      font-size: 27px;
+      margin: 0 10px 0 16px;
+    }
+    p {
+      font-size: 30px;
+      font-weight: 700;
+    }
+  }
+}

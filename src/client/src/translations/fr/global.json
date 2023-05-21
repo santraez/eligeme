@@ -1,0 +1,38 @@
+{
+  "header": {
+    "slogan": "Application web à choisir au hasard.."
+  },
+  "body": {
+    "state-hello": "Salut!",
+    "state-wow": "Tirage au sort..",
+    "state-ready": "Résultat:",
+    "input-column-a": "écris quelque chose",
+    "input-column-b": "ici aussi",
+    "input-button": "Ajouter",
+    "row-a-button": "Colonne 1",
+    "row-b-button": "Colonne 2",
+    "choose-button": "Choisir",
+    "order-button": "Ordonner",
+    "group-button": "Groupe",
+    "assign-button": "Assigner",
+    "input-name": "Attribuez un nom",
+    "input-name-default": "Sans nom",
+    "start-button": "Début",
+    "processing-button": "En traitement..",
+    "return-button": "Rendre",
+    "share-button": "Partager",
+    "ad-text": "Annonce publicitaire",
+    "alert-empty": "Pas assez d'articles à choisir",
+    "alert-name": "Veuillez donner un nom à votre choix aléatoire",
+    "alert-column": "Veuillez écrire dans les deux colonnes",
+    "alert-copy": "Lien copié dans le presse-papiers",
+    "delete-all": "Supprimer tout",
+    "text-type": "Type:",
+    "text-link": "Voir les valeurs précédentes",
+    "text-code": "Code:",
+    "text-tutorial": "Tutoriel"
+  },
+  "footer": {
+    "copy-right": "Développé par"
+  }
+}
