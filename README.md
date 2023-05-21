@@ -2,7 +2,10 @@
   <h1 style="font-size: 48px;">Elige.me</h1>
 </div>
 
-![Elige.me Logo](https://raw.githubusercontent.com/santraez/eligeme/main/src/assets/logo.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/santraez/eligeme/main/src/assets/logo.png" alt="Elige.me Logo">
+</div>
+
 
 Elige.me is a web application that helps you make random choices in an easy and fun way. Whether you're looking to select a specific number of items from a list, randomly sort a series of elements, group items into custom categories, or assign tasks to people randomly, Elige.me is here to assist you.
 
