@@ -1,5 +1,6 @@
 <div align="center">
-  <h1 style="font-size: 48px;">Elige.me</h1>
+  <h1 style="font-size: 48px;">elige.me</h1>
+  <h3 style="font-size: 48px;">web application to choose randomly..</h3>
 </div>
 
 <div align="center">
