@@ -65,6 +65,10 @@ That's it! Now you can enjoy Elige.me in your own environment.
 
 If you wish to contribute to Elige.me, you're more than welcome! Feel free to submit pull requests or open issues on the GitHub repository: [repository link](https://github.com/santraez/eligeme).
 
+## Donation
+
+[Buy Me a Coffee](https://bmc.link/santraez) ☕ 
+
 ## License
 
 This project is licensed under the MIT License. For more information, please refer to the [LICENSE](https://github.com/santraez/eligeme/blob/main/LICENSE) file.
